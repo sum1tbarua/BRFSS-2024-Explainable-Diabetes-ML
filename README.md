@@ -157,6 +157,3 @@ This repository's source code is released under the **[MIT License](LICENSE)**. 
 
 If you use or adapt this code for academic research, please cite the associated publication using the information in the <a href="#citation">Citation</a> section.
 
-## Contact
-
-For research inquiries or requests regarding the original analysis, contact the corresponding author at **sumit.barua@wmich.edu**.
