@@ -1,0 +1,73 @@
+algorithm,specification,n_test,actual_class,predicted_class,count
+Logistic Regression,Model-1,90649,No diabetes,No diabetes,47529
+Logistic Regression,Model-1,90649,No diabetes,Prediabetes,6187
+Logistic Regression,Model-1,90649,No diabetes,Diabetes,21510
+Logistic Regression,Model-1,90649,Prediabetes,No diabetes,896
+Logistic Regression,Model-1,90649,Prediabetes,Prediabetes,267
+Logistic Regression,Model-1,90649,Prediabetes,Diabetes,1098
+Logistic Regression,Model-1,90649,Diabetes,No diabetes,3782
+Logistic Regression,Model-1,90649,Diabetes,Prediabetes,1259
+Logistic Regression,Model-1,90649,Diabetes,Diabetes,8121
+Decision Tree,Model-1,90649,No diabetes,No diabetes,44672
+Decision Tree,Model-1,90649,No diabetes,Prediabetes,12483
+Decision Tree,Model-1,90649,No diabetes,Diabetes,18071
+Decision Tree,Model-1,90649,Prediabetes,No diabetes,818
+Decision Tree,Model-1,90649,Prediabetes,Prediabetes,517
+Decision Tree,Model-1,90649,Prediabetes,Diabetes,926
+Decision Tree,Model-1,90649,Diabetes,No diabetes,3356
+Decision Tree,Model-1,90649,Diabetes,Prediabetes,2672
+Decision Tree,Model-1,90649,Diabetes,Diabetes,7134
+Random Forest,Model-1,90649,No diabetes,No diabetes,45735
+Random Forest,Model-1,90649,No diabetes,Prediabetes,8440
+Random Forest,Model-1,90649,No diabetes,Diabetes,21051
+Random Forest,Model-1,90649,Prediabetes,No diabetes,831
+Random Forest,Model-1,90649,Prediabetes,Prediabetes,342
+Random Forest,Model-1,90649,Prediabetes,Diabetes,1088
+Random Forest,Model-1,90649,Diabetes,No diabetes,3410
+Random Forest,Model-1,90649,Diabetes,Prediabetes,1874
+Random Forest,Model-1,90649,Diabetes,Diabetes,7878
+XGBoost,Model-1,90649,No diabetes,No diabetes,75186
+XGBoost,Model-1,90649,No diabetes,Prediabetes,0
+XGBoost,Model-1,90649,No diabetes,Diabetes,40
+XGBoost,Model-1,90649,Prediabetes,No diabetes,2255
+XGBoost,Model-1,90649,Prediabetes,Prediabetes,0
+XGBoost,Model-1,90649,Prediabetes,Diabetes,6
+XGBoost,Model-1,90649,Diabetes,No diabetes,13126
+XGBoost,Model-1,90649,Diabetes,Prediabetes,0
+XGBoost,Model-1,90649,Diabetes,Diabetes,36
+Logistic Regression,Model-2,90649,No diabetes,No diabetes,49862
+Logistic Regression,Model-2,90649,No diabetes,Prediabetes,7128
+Logistic Regression,Model-2,90649,No diabetes,Diabetes,18236
+Logistic Regression,Model-2,90649,Prediabetes,No diabetes,716
+Logistic Regression,Model-2,90649,Prediabetes,Prediabetes,508
+Logistic Regression,Model-2,90649,Prediabetes,Diabetes,1037
+Logistic Regression,Model-2,90649,Diabetes,No diabetes,2703
+Logistic Regression,Model-2,90649,Diabetes,Prediabetes,1922
+Logistic Regression,Model-2,90649,Diabetes,Diabetes,8537
+Decision Tree,Model-2,90649,No diabetes,No diabetes,41927
+Decision Tree,Model-2,90649,No diabetes,Prediabetes,15071
+Decision Tree,Model-2,90649,No diabetes,Diabetes,18228
+Decision Tree,Model-2,90649,Prediabetes,No diabetes,678
+Decision Tree,Model-2,90649,Prediabetes,Prediabetes,765
+Decision Tree,Model-2,90649,Prediabetes,Diabetes,818
+Decision Tree,Model-2,90649,Diabetes,No diabetes,2808
+Decision Tree,Model-2,90649,Diabetes,Prediabetes,3363
+Decision Tree,Model-2,90649,Diabetes,Diabetes,6991
+Random Forest,Model-2,90649,No diabetes,No diabetes,48535
+Random Forest,Model-2,90649,No diabetes,Prediabetes,7289
+Random Forest,Model-2,90649,No diabetes,Diabetes,19402
+Random Forest,Model-2,90649,Prediabetes,No diabetes,799
+Random Forest,Model-2,90649,Prediabetes,Prediabetes,460
+Random Forest,Model-2,90649,Prediabetes,Diabetes,1002
+Random Forest,Model-2,90649,Diabetes,No diabetes,3313
+Random Forest,Model-2,90649,Diabetes,Prediabetes,1796
+Random Forest,Model-2,90649,Diabetes,Diabetes,8053
+XGBoost,Model-2,90649,No diabetes,No diabetes,74354
+XGBoost,Model-2,90649,No diabetes,Prediabetes,0
+XGBoost,Model-2,90649,No diabetes,Diabetes,872
+XGBoost,Model-2,90649,Prediabetes,No diabetes,2161
+XGBoost,Model-2,90649,Prediabetes,Prediabetes,0
+XGBoost,Model-2,90649,Prediabetes,Diabetes,100
+XGBoost,Model-2,90649,Diabetes,No diabetes,12023
+XGBoost,Model-2,90649,Diabetes,Prediabetes,0
+XGBoost,Model-2,90649,Diabetes,Diabetes,1139
