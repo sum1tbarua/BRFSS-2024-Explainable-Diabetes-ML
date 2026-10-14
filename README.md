@@ -153,7 +153,7 @@ This repository contains **research software**, not a clinically validated diabe
 
 ### License
 
-This repository's source code is released under the MIT License. See the LICENSE file for details. The BRFSS 2024 dataset is provided by the U.S. Centers for Disease Control and Prevention (CDC) and is not covered by this software license.
+This repository's source code is released under the **[MIT License](LICENSE)**. See the [LICENSE](LICENSE) file for details. The BRFSS 2024 dataset is provided by the U.S. Centers for Disease Control and Prevention (CDC) and is not covered by this software license.
 
 If you use or adapt this code for academic research, please cite the associated publication using the information in the <a href="#citation">Citation</a> section.
 
