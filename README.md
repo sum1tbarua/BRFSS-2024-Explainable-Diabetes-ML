@@ -42,7 +42,8 @@ The following figure illustrates the complete analytical pipeline, from BRFSS 20
   <img
     src="results/figures/figure1_study_workflow.png"
     alt="BRFSS 2024 study workflow"
-    width="650"
+    width="450"
+    height="550"
   />
 </p>
 
