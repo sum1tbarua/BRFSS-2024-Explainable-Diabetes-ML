@@ -29,7 +29,7 @@
 
 This repository documents an explainable multiclass machine-learning study using the **2024 Behavioral Risk Factor Surveillance System (BRFSS)**. The analysis distinguishes self-reported **no diabetes, prediabetes, and diabetes**, compares a behavioral/health-status feature set with an expanded feature set, and quantifies model-attributed contributions from behavioral/health-status, demographic, and anthropometric domains.
 
-> **Reproducibility status:** The eight numbered scripts were organized from the research workflow and syntax-checked, but **have not been validated together through an end-to-end run**. Numerical values below are **findings reported in the accepted manuscript**, not independently regenerated repository outputs. These scripts should not yet be treated as a verified reproduction package.
+> **Reproducibility status:** All eight analysis scripts have been successfully executed using the BRFSS 2024 dataset. The preprocessing outputs, model configurations, and software dependencies were verified against the final research workflow. The repository reproduces the study's principal findings, although some numerical estimates differ slightly from those reported in the accepted manuscript. Published reference results are maintained separately in `results/reference/`, while independently generated outputs are saved to `results/tables/`. Exact numerical replication of every reported result is not claimed.
 
 ## Study at a glance
 
@@ -76,11 +76,13 @@ BRFSS-2024-Explainable-Diabetes-ML/
 ├── data/
 │   ├── README.md
 │   ├── raw/                # not distributed
-│   └── processed/          # not distributed
-├── models/                 # generated models; not distributed
+│   └── processed/          # generated; not distributed
+├── models/                 # generated; not distributed
 ├── results/
-│   ├── tables/            # selected summary CSVs have be added
-│   └── figures/
+│   ├── reference/
+│   │   └── README.md       # published reference results
+│   ├── tables/             # generated analysis outputs; not distributed
+│   └── figures/            # generated figures
 ├── README.md
 ├── CITATION.cff
 ├── requirements.txt
