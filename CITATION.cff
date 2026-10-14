@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  If you use the methods, analyses, or findings presented in this repository,
+  please cite the associated research article using the preferred citation below.
+  Please also cite the CDC BRFSS 2024 dataset when using its data.
+title: "BRFSS 2024 Explainable Multiclass Diabetes Machine Learning: Research Code"
+type: software
+authors:
+  - family-names: Barua
+    given-names: Sumit
+  - family-names: Jabran
+    given-names: Sohaib
+  - family-names: Rodgers
+    given-names: Charles
+  - family-names: Fong
+    given-names: Alvis
+abstract: >-
+  Research scripts for the analysis described in Quantifying Behavioral Contributions
+  to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with
+  BRFSS 2024. Reorganized code has not been validated through an end-to-end rerun.
+keywords:
+  - diabetes
+  - prediabetes
+  - BRFSS 2024
+  - explainable machine learning
+  - SHAP
+  - public health
+preferred-citation:
+  type: article
+  title: "Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024"
+  authors:
+    - family-names: Barua
+      given-names: Sumit
+    - family-names: Jabran
+      given-names: Sohaib
+    - family-names: Rodgers
+      given-names: Charles
+    - family-names: Fong
+      given-names: Alvis
+  journal: "Discover Public Health"
+  year: 2026
