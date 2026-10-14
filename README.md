@@ -8,8 +8,10 @@
   <strong>Behavioral/Health-Status Factors · Multiclass Machine Learning · SHAP Explainability</strong>
 </p>
 
+
 <p align="center">
   <a href="#overview">Overview</a> ·
+  <a href="#study-workflow">Workflow</a> ·
   <a href="#study-at-a-glance">Study</a> ·
   <a href="#selected-findings">Findings</a> ·
   <a href="#repository-structure">Code</a> ·
@@ -30,6 +32,12 @@
 This repository documents an explainable multiclass machine-learning study using the **2024 Behavioral Risk Factor Surveillance System (BRFSS)**. The analysis distinguishes self-reported **no diabetes, prediabetes, and diabetes**, compares a behavioral/health-status feature set with an expanded feature set, and quantifies model-attributed contributions from behavioral/health-status, demographic, and anthropometric domains.
 
 > **Reproducibility status:** All eight analysis scripts have been successfully executed using the BRFSS 2024 dataset. The preprocessing outputs, model configurations, and software dependencies were verified against the final research workflow. The repository reproduces the study's principal findings, although some numerical estimates differ slightly from those reported in the accepted manuscript. Published reference results are maintained separately in `results/reference/`, while independently generated outputs are saved to `results/tables/`. Exact numerical replication of every reported result is not claimed.
+
+## Study workflow
+
+The following figure illustrates the complete analytical pipeline, from BRFSS 2024 data preparation and leakage-safe preprocessing to multiclass classification, evaluation, and SHAP explainability.
+
+![BRFSS 2024 study workflow](results/reference/figures/figure1_study_workflow.png)
 
 ## Study at a glance
 
@@ -83,6 +91,8 @@ BRFSS-2024-Explainable-Diabetes-ML/
 │   │   └── README.md       # published reference results
 │   ├── tables/             # generated analysis outputs; not distributed
 │   └── figures/            # generated figures
+│       ├── figure1_study_workflow.png
+│       └── figure2_geographic_shap.png
 ├── README.md
 ├── CITATION.cff
 ├── requirements.txt
