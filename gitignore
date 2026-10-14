@@ -33,9 +33,17 @@ data/processed/*
 # Saved models and generated results
 models/*
 !models/.gitkeep
-results/figures/*
+
+# Generated analysis tables
+results/tables/*
 !results/tables/.gitkeep
+
+# Generated figures
+results/figures/*
 !results/figures/.gitkeep
+
+# Published reference results
+# results/reference/ is tracked by Git
 
 # Miscellaneous experiment artifacts outside standard locations
 *.joblib
