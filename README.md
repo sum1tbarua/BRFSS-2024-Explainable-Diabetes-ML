@@ -37,7 +37,7 @@ This repository documents an explainable multiclass machine-learning study using
 
 The following figure illustrates the complete analytical pipeline, from BRFSS 2024 data preparation and leakage-safe preprocessing to multiclass classification, evaluation, and SHAP explainability.
 
-![BRFSS 2024 study workflow](results/reference/figures/figure1_study_workflow.png)
+![BRFSS 2024 study workflow](results/figures/figure1_study_workflow.png)
 
 ## Study at a glance
 
