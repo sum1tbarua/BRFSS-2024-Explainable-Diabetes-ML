@@ -1,6 +1,6 @@
 # Published Reference Results
 
-This directory contains the reference results reported in the accepted manuscript:
+This directory contains the reference results reported in the published manuscript:
 
 **Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024**
 

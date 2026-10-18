@@ -2,7 +2,7 @@
 
 This directory documents the source data, variables, transformations, and derived files for the study:
 
-> Barua, S., Jabran, S., Rodgers, C., and Fong, A. *Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024*. **Discover Public Health** (accepted October 2026; DOI and final citation pending).
+> Barua, S., Jabran, S., Rodgers, C., and Fong, A. *Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024*. **Discover Public Health** (published October 2026; DOI: 10.1186/s12982-026-03175-4).
 
 **Availability:** Neither the original CDC public-use file nor the processed respondent-level analysis data are distributed in this repository. This README documents the intended dataset and outputs; it does **not** establish that the published results have been reproduced using the reorganized scripts.
 
