@@ -1,10 +1,13 @@
 cff-version: 1.2.0
+
 message: >-
   If you use the methods, analyses, or findings presented in this repository,
-  please cite the associated research article using the preferred citation below.
+  please cite the published research article using the preferred citation below.
   Please also cite the CDC BRFSS 2024 dataset when using its data.
+
 title: "BRFSS 2024 Explainable Multiclass Diabetes Machine Learning: Research Code"
 type: software
+
 authors:
   - family-names: Barua
     given-names: Sumit
@@ -14,10 +17,17 @@ authors:
     given-names: Charles
   - family-names: Fong
     given-names: Alvis
+
 abstract: >-
-  Research scripts for the analysis described in Quantifying Behavioral Contributions
-  to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with
-  BRFSS 2024. Reorganized code has not been validated through an end-to-end rerun.
+  Research scripts supporting the published study Quantifying Behavioral
+  Contributions to Diabetes Risk Using an Explainable Multiclass Machine
+  Learning Framework with BRFSS 2024. The repository includes preprocessing,
+  model training, evaluation, bootstrap uncertainty estimation, survey-weight
+  sensitivity analysis, subgroup evaluation, and SHAP explainability.
+  All eight analysis scripts have been executed against BRFSS 2024 data
+  and reproduce the principal study findings, although some numerical
+  estimates differ from the published results.
+
 keywords:
   - diabetes
   - prediabetes
@@ -25,9 +35,14 @@ keywords:
   - explainable machine learning
   - SHAP
   - public health
+
+repository-code: "https://github.com/sum1tbarua/BRFSS-2024-Explainable-Diabetes-ML"
+
+license: MIT
+
 preferred-citation:
   type: article
-  title: "Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024"
+  title: "Quantifying behavioral contributions to diabetes risk using an explainable multiclass machine learning framework with BRFSS 2024"
   authors:
     - family-names: Barua
       given-names: Sumit
@@ -39,3 +54,8 @@ preferred-citation:
       given-names: Alvis
   journal: "Discover Public Health"
   year: 2026
+  date-published: 2026-10-18
+  volume: 23
+  issue: "1676"
+  doi: "10.1186/s12982-026-03175-4"
+  url: "https://doi.org/10.1186/s12982-026-03175-4"

@@ -25,9 +25,13 @@
 
 **Research code accompanying an accepted peer-reviewed manuscript:**
 
+
 > **Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024**  
 > Sumit Barua, Sohaib Jabran, Charles Rodgers, and Alvis Fong  
-> *Discover Public Health* · Accepted 13 October 2026 · Publication DOI pending
+> *Discover Public Health* (Springer Nature), **23**, Article 1676 (2026)  
+> **Published:** 18 October 2026 · **Open Access (CC BY 4.0)**  
+> **DOI:** https://doi.org/10.1186/s12982-026-03175-4
+
 
 This repository documents an explainable multiclass machine-learning study using the **2024 Behavioral Risk Factor Surveillance System (BRFSS)**. The analysis distinguishes self-reported **no diabetes, prediabetes, and diabetes**, compares a behavioral/health-status feature set with an expanded feature set, and quantifies model-attributed contributions from behavioral/health-status, demographic, and anthropometric domains.
 
@@ -150,20 +154,28 @@ python src/08_shap_analysis.py
 
 The final research environment used **Python 3.12**, `numpy==2.1.3`, `pandas==2.2.3`, `scikit-learn==1.6.1`, `xgboost==3.1.1`, and `shap==0.50.0`. See [`requirements.txt`](requirements.txt) for declared dependencies; exact versions of some supporting packages were not recorded.
 
+
 ## Citation
 
-**If you use the research methods, analysis, or results, please cite the associated journal article.** The following is provisional until Springer Nature publishes the final DOI and article details:
+**If you use the research methods, analysis, or results, please cite the published journal article.**
 
-> Barua, S., Jabran, S., Rodgers, C., & Fong, A. (2026). *Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024*. **Discover Public Health**. Accepted 13 October 2026. DOI pending.
+> Barua, S., Jabran, S., Rodgers, C., & Fong, A. (2026). Quantifying behavioral contributions to diabetes risk using an explainable multiclass machine learning framework with BRFSS 2024. *Discover Public Health, 23*, Article 1676. https://doi.org/10.1186/s12982-026-03175-4
+
+### BibTeX
 
 ```bibtex
-@misc{barua2026brfss_diabetes,
-  author = {Barua, Sumit and Jabran, Sohaib and Rodgers, Charles and Fong, Alvis},
-  title  = {Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024},
-  year   = {2026},
-  note   = {Accepted in Discover Public Health on 13 October 2026; publication details and DOI pending}
+@article{barua2026brfss_diabetes,
+  author  = {Barua, Sumit and Jabran, Sohaib and Rodgers, Charles and Fong, Alvis},
+  title   = {Quantifying behavioral contributions to diabetes risk using an explainable multiclass machine learning framework with BRFSS 2024},
+  journal = {Discover Public Health},
+  year    = {2026},
+  volume  = {23},
+  number  = {1676},
+  doi     = {10.1186/s12982-026-03175-4},
+  url     = {https://doi.org/10.1186/s12982-026-03175-4}
 }
 ```
+
 
 GitHub also provides citation metadata via [`CITATION.cff`](CITATION.cff). If using the underlying BRFSS public-use data, **cite the CDC dataset separately**, following CDC guidance. A distinct software archive DOI has not been assigned.
 
