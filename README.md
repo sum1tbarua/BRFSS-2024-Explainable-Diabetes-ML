@@ -23,7 +23,7 @@
 
 ## Overview
 
-**Research code accompanying an accepted peer-reviewed manuscript:**
+**Research code accompanying a published peer-reviewed manuscript:**
 
 
 > **Quantifying Behavioral Contributions to Diabetes Risk Using an Explainable Multiclass Machine Learning Framework with BRFSS 2024**  
@@ -159,9 +159,9 @@ The final research environment used **Python 3.12**, `numpy==2.1.3`, `pandas==2.
 
 **If you use the research methods, analysis, or results, please cite the published journal article.**
 
-> Barua, S., Jabran, S., Rodgers, C., & Fong, A. (2026). Quantifying behavioral contributions to diabetes risk using an explainable multiclass machine learning framework with BRFSS 2024. *Discover Public Health, 23*, Article 1676. https://doi.org/10.1186/s12982-026-03175-4
+<!-- > Barua, S., Jabran, S., Rodgers, C., & Fong, A. (2026). Quantifying behavioral contributions to diabetes risk using an explainable multiclass machine learning framework with BRFSS 2024. *Discover Public Health, 23*, Article 1676. https://doi.org/10.1186/s12982-026-03175-4 -->
 
-### BibTeX
+<!-- ### BibTeX -->
 
 ```bibtex
 @article{barua2026brfss_diabetes,
@@ -187,5 +187,5 @@ This repository contains **research software**, not a clinically validated diabe
 
 This repository's source code is released under the **[MIT License](LICENSE)**. See the [LICENSE](LICENSE) file for details. The BRFSS 2024 dataset is provided by the U.S. Centers for Disease Control and Prevention (CDC) and is not covered by this software license.
 
-If you use or adapt this code for academic research, please cite the associated publication using the information in the <a href="#citation">Citation</a> section.
+<!-- If you use or adapt this code for academic research, please cite the associated publication using the information in the <a href="#citation">Citation</a> section. -->
 
