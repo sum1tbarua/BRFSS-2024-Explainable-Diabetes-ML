@@ -55,3 +55,7 @@ results/figures/*
 *.XPT
 *.parquet
 *.feather
+
+# macOS system files
+.DS_Store
+**/.DS_Store
